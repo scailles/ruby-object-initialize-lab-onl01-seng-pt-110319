@@ -11,8 +11,11 @@ class Dog
 
   def dname
   @name
-end
+  end
 
-
+  def breed
+    @breed
+  end
+  
 end
     
