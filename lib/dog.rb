@@ -16,7 +16,7 @@ class Dog
   end
   
   def breed=(breed)
-    if @breed.empty? 
+    if breed.empty? 
       puts "Mutt"
     else @breed= breed
     end
